@@ -1,0 +1,437 @@
+/* External Stylesheet for Oakbrook Night Life
+Written by James Bouska
+August 12, 2013 */
+
+@font-face {
+    font-family: 'expansiva_bold';
+    src: url('../fonts/expansiva_webkit/expansiva_bold-webfont.eot');
+    src: url('../fonts/expansiva_webkit/expansiva_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/expansiva_webkit/expansiva_bold-webfont.woff') format('woff'),
+         url('../fonts/expansiva_webkit/expansiva_bold-webfont.ttf') format('truetype'),
+         url('../fonts/expansiva_webkit/expansiva_bold-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'disco_divaregular';
+    src: url('../fonts/disco_diva_webkit/discodiva-webfont.eot');
+    src: url('../fonts/disco_diva_webkit/discodiva-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/disco_diva_webkit/discodiva-webfont.woff') format('woff'),
+         url('../fonts/disco_diva_webkit/discodiva-webfont.ttf') format('truetype'),
+         url('../fonts/disco_diva_webkit/discodiva-webfont.svg#disco_divaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	background: url(../images/background.jpg);
+	background-repeat: repeat-x repeat-y;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	line-height: 16px;
+	color: #000000;
+	text-align: left;
+}
+
+#shell {
+	margin: 0 auto;
+	width: 1200px;
+	background: #000000;
+}
+
+h1 {
+	font-family: 'expansiva_bold';
+	font-size: 10px;
+	color: #f1e915;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'disco_divaregular';
+	font-size: 40px;
+	color: #FFFFFF;
+	text-align: center;
+	text-decoration: underline;
+}
+
+h2#date {
+	font-family: 'disco_divaregular';
+	font-size: 26px;
+	color: #FFFFFF;
+	text-align: center;
+	background-color: #BD0AC7;
+}
+
+h2.entertainment {
+	font-family: 'expansiva';
+	color: #f1e915;
+	text-decoration: none;
+	padding-bottom: 20px;
+}
+
+h3.yellow{
+	color: #f1e915;
+}
+
+h3 span{
+	color: #ffffff;
+	margin-left: 120px;
+}
+
+h4 {
+	margin: 0px;
+}
+
+
+.cl {
+	font-size: 0;
+	line-height: 0;
+	height: 0;
+	clear: both;
+}
+
+header {
+	height: 250px;
+	width: 1200px;
+	background: url(../images/logo3.png);
+}
+
+#social_media {
+	float: right;
+	position: relative;
+	 bottom: 95px;
+	margin-right: 5px;
+}
+
+#main-content {
+	height: 1100px;
+	width: 1200px;
+}
+
+section#left-column {
+	height: 990px;
+	width: 230px;
+	border: 2px solid #f1e915;
+	margin-right: 5px;
+	float: left;
+}
+
+nav {
+	font-family: 'expansiva_bold';
+	height: 340px;
+	width: 230px;
+	border-bottom: 2px solid #f1e915; 
+}
+
+nav ul {
+	list-style-type: none;
+	padding:0px;
+}
+
+nav ul li {
+	background: url(../images/nav-background.png) no-repeat 0 0;
+	height: 50px;
+	width: 230px;
+	font-size: 16px;
+	padding-top: 5px;
+}
+
+nav ul li a {
+	width: 200px;
+	text-decoration: none;
+	color: #f1e915;
+	margin-left: 35px;
+}
+
+nav ul li a:hover {
+	color: #ffffff;
+}
+
+nav#alphabetical {
+	margin-left: 40px;
+}
+
+#ad_1 {
+	height: 300px;
+	width: 230px;
+}
+
+section#center {
+	height: 990px;
+	width: 650px;
+	border: 2px solid #f1e915;
+	margin: 0 5px 0 10px;
+	float: left;
+}
+
+#featured-content {
+	height: 400px;
+	width: 650px;
+	border-bottom: 2px solid #f1e915;
+}
+
+#js-slider{
+	height: 400px;
+	width: 650px;
+}
+
+#specials {
+	height: 990px;
+	background-color: #BD0AC7;
+	overflow: scroll;
+}
+
+#entertainment {
+	height: 990px;
+	background-color: #000000;
+	color: #f1e915;
+	overflow: scroll;
+}
+
+#live_music {
+	background: url(../images/live_music_background.png) no-repeat 0 0;
+	height: 990px;
+	background-color: #000000;
+	color: #ffffff;
+	overflow: scroll;
+}
+
+nav#alphabetical {
+	width: 600px;
+	height: 30px;
+	padding-bottom: 20px;
+	border: none;
+}
+
+nav#alphabetical ul {
+}
+
+nav#alphabetical ul li {
+	display: inline;
+	background: none;
+	color: #f1e915;
+}
+
+nav#alphabetical ul li a {
+	margin: 0px;
+}
+
+nav#alphabetical ul li a:hover {
+	text-decoration: underline;
+}
+
+#restaurant {
+	width: 650px;
+	height: 100px;
+	border-bottom: 2px solid #f1e915;
+}
+
+#restaurant_long {
+	width: 650px;
+	height: 120px;
+	border-bottom: 2px solid #f1e915;
+}
+
+#restaurant_long p#dining_specials {
+	float: right;
+	padding: 0 20px 5px 0;
+}
+
+img.restaurant_logo {
+	width: 75px;
+	height: 75px;
+	float: left;
+	margin: 0 50px 0 10px;
+}
+
+#restaurant p span {
+	float: left;
+	margin-left: 80px;
+	color: #f1e915;
+}
+
+#restaurant p#dining_specials {
+	float: right;
+	padding: 0 20px 5px 0;
+}
+
+img.artist {
+	float: right;
+	margin-right: 20px;
+	position: relative;
+		bottom: 70px;
+}
+
+#drury_lane {
+	width: 650px;
+	height: 275px;
+	border-bottom: 2px solid #f1e915;
+}
+
+#drury_lane img {
+	width: 75px;
+	height: 75px;
+	float: left;
+	margin: 0 50px 0 10px;
+}
+
+#drury_lane p {
+	width: 190px;
+	color: #f1e915;
+	float: left;
+}
+
+#drury_lane a {
+	float: left;
+}
+
+#drury_lane a span {
+	float: left;
+	padding-top: 30px;
+	margin-left: 30px;
+}
+
+#drury_lane a:hover {
+	color: #ffffff;
+}
+
+#current_play img {
+	width: 243px;
+	height: 207px;
+	float: right;
+}
+	
+#chamber {
+	height: 250px;
+	width: 650px;
+	padding-bottom: 12px;
+	border-bottom: 2px solid #f1e915;
+}
+	
+
+.bx-wrapper {
+	width: 650px;
+	height: 380px;
+	padding: 12px 0px 0px 0px;
+	}
+	
+.bx-window {
+	width: 650px;
+	height: 400px;
+	overflow: hidden;
+}
+			
+.bx-slider {
+	background: #FFFFFF;
+}
+
+.bx-slider pager {
+	width: 650px;
+	height: 400px;
+	float: left;
+	list-style: none outside none;
+}
+
+.bx-slider, .bx-slider .panel {
+	width: 650px;
+	height: 400px;
+}
+
+.bx-slider .panel-wrapper {
+	height: 400px;
+	padding: 0 0 20px 0;
+}
+
+#newsletter {
+	height: 275px;
+	width: 325px;
+	background-color: #000000;
+	background: url(../images/newsletter_background.png);
+	color: #f1e915;
+	float: left;
+}
+
+
+#newsletter form {
+	margin-top: 100px;
+}
+
+#newsletter p {
+	font-family: 'expansiva_bold';
+}
+
+label.error {
+	font-size: 12px; 
+}
+
+#photo_album {
+	height: 275px;
+	width: 325px;
+	background-color: #FFFFFF;
+	background: url(../images/photo_background.png);
+	background-repeat: no-repeat;
+	float: right;
+}
+
+#photo_album p {
+	width: 80px;
+	font-family: 'expansiva';
+	color: #f1e915;
+	float: left;
+	margin-top: 80px;
+	padding-left: 190px;
+	
+}
+section#right-column {
+	height: 990px;
+	width: 280px;
+	border: 2px solid #f1e915;
+	float: right;
+}
+
+#social {
+	background: url(../images/social-background.png) no-repeat 0 0;
+	padding-left: 25px;
+	border-bottom: 2px solid #f1e915;
+}
+
+#social img {
+	padding: 0 5px 10px 0;
+}
+
+#advertise {
+	padding: 12px 5px 0px 5px;
+}
+
+#upcoming_events {
+	height: 240px;
+	width: 280px;
+	background-color: #ffffff;
+	border-bottom: 2px solid #f1e915;
+}
+
+#upcoming_events p {
+	float: left;
+	margin-left: 30px;
+
+}
+
+#upcoming_events img {
+	height: 50px;
+	width: 50px;
+	float:left;
+}
+
+#upcoming_events a {
+	color: #ca1ede;
+	text-decoration: none;
+	float: left;
+	padding-left: 25px;
+	margin-top: 3px;
+}
+
+#upcoming_events a:hover {
+	text-decoration: underline;
+}
